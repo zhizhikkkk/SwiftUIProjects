@@ -45,7 +45,7 @@ struct FrameworkGridView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        isGrid.toggle() // Переключение состояния
+                        isGrid.toggle() 
                     }) {
                         Image(systemName: isGrid ? "list.bullet" : "square.grid.2x2")
                             .foregroundColor(Color(.label))
